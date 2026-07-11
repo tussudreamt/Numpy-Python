@@ -52,3 +52,5 @@ print("Sliced 3D array :\n", arrslice3d[1:2:1, :, :])
 arrsliceassign = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 arrsliceassign[0:2, 0:3] = 99
 print("Slice assignment :\n", arrsliceassign)
+
+#Common error: 1-stop excluded, 2-Invalid step, 3-Invalid slicing, 4-Invalid shape, 5-Invalid data type, 6-Index out of range
