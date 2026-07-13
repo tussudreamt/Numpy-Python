@@ -19,3 +19,5 @@ print("Array sum :", np.sum(arragg2d, axis=1))
 #this applies to  mean, min, max, std, var
 print("Index of min value :", np.argmax(arragg2d)) #for 2d array it returns index number
 
+#axis - tells the numpy along which direction to perform operation
+#axis=0(one result for each column)       axis=1(one result for each row) 
